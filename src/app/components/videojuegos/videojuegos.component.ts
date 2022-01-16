@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Videojuego, VideojuegosService } from 'src/app/services/videojuegos.service';
+
 
 @Component({
   selector: 'app-videojuegos',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideojuegosComponent implements OnInit {
 
-  constructor() { }
+  videojuegos: Videojuego[] = [];
+
+
+  constructor(private _videojuegoService: VideojuegosService, private router: Router) { }
 
   ngOnInit(): void {
+    this.videojuegos = this._videojuegoService.getVideoJuegos();
+  }
+
+  verVideojuego(idx: number) {
+    this.router.navigate(['/videojuego/', idx]);
   }
 
 }

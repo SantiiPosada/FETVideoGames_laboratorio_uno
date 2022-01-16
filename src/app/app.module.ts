@@ -9,6 +9,7 @@ import { VideojuegoComponent } from './components/videojuego/videojuego.componen
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { APP_ROUTING } from './app.routes';
+import { VideojuegosService } from './services/videojuegos.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { APP_ROUTING } from './app.routes';
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [VideojuegosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

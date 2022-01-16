@@ -12,4 +12,8 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  obtenerLink(): string {
+    return "assets/img/personas/sph.jpg"
+  }
 }
+
