@@ -36,3 +36,7 @@ Proyecto laboratorio_uno el cual consta de hacer un primer acercamiento de angul
 Mediante el desarrollo de una SPA de una guía de vídeo juegos.
 [LABORATORIO No. 1.pdf](https://github.com/SantiiPosada/FETVideoGames_laboratorio_uno/files/7876163/LABORATORIO.No.1.pdf)
 
+## Solución de las preguntas con información adicional
+
+[Laboratorio Fundamentos de Angular (FET Videojuegos) santiago posada hurtado.pdf](https://github.com/SantiiPosada/FETVideoGames_laboratorio_uno/files/7878133/Laboratorio.Fundamentos.de.Angular.FET.Videojuegos.santiago.posada.hurtado.pdf)
+
