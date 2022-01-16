@@ -28,5 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Laboratorio Fundamentos de Angular (FET Videojuegos)
 
+Proyecto laboratorio_uno el cual consta de hacer un primer acercamiento de angular con el objetivo de abordar temas muy puntuales del framework como lo son: 
+• Components 
+• Routes 
+• Services 
+• Directives o *ngIf o *ngFor
+Mediante el desarrollo de una SPA de una guía de vídeo juegos.
 [LABORATORIO No. 1.pdf](https://github.com/SantiiPosada/FETVideoGames_laboratorio_uno/files/7876163/LABORATORIO.No.1.pdf)
 
