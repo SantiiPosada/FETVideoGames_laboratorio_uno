@@ -7,6 +7,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { VideojuegosComponent } from './components/videojuegos/videojuegos.component';
 import { VideojuegoComponent } from './components/videojuego/videojuego.component';
 import { AboutComponent } from './components/about/about.component';
+import { HomeComponent } from './components/home/home.component';
+import { APP_ROUTING } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { AboutComponent } from './components/about/about.component';
     BuscadorComponent,
     VideojuegosComponent,
     VideojuegoComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
